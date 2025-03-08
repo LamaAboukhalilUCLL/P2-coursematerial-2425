@@ -14,17 +14,17 @@ class B(A):
         self.e()
 
 
-class C(B):
+class C(B):        #C inherits from B
     def f(self):
         pass
 
 
-class D(A):
+class D(A):                 #D inherits from A
     def b(self):
         self.f()
 
 
-class E(D):
+class E(D):                       #E inherits from D
     def c(self):
         self.a()
 
@@ -35,7 +35,7 @@ class E(D):
         self.f()
 
 
-class F:
+class F:                
     def a(self):
         self.b()
         self.f()
