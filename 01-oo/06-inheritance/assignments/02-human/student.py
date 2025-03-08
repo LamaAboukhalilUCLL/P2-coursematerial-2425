@@ -13,3 +13,6 @@ class Archer(Human): #inherits fromm human class
 
     def get_num_arrows(self):
         return self.__num_arrows #priv 
+    
+
+
