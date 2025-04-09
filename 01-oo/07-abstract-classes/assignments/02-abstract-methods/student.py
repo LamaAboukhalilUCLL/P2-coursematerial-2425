@@ -1,30 +1,18 @@
 from abc import ABC, abstractmethod
 
 class A(ABC):
+    @abstractmethod
     def a(self):
         self.b()
-
+    @abstractmethod
     def e(self):
         self.c()
 
-    @abstractmethod
-    def b(self):
-        pass
-
-    @abstractmethod
-    def c(self):
-        pass
-
-    @abstractmethod
-    def f(self):
-        pass
-
-
 class B(A):
-    def b(self):
+    def b(self): #inherited from A, b implements a
         self.a()
 
-    def c(self):
+    def c(self): #inherited from A, c implements e 
         self.e()
 
 

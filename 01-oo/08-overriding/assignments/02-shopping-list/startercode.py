@@ -24,3 +24,5 @@ class ShoppingList:
         if not item.can_be_sold_to(self.owner):
             raise ValueError()
         self.__items.append(item)
+
+    
