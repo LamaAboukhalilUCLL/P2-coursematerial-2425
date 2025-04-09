@@ -1,3 +1,5 @@
+
+
 class Human:
     def __init__(self, name):
         self.__name = name #mangled private name if we want to access it we do obj._class__prv_var

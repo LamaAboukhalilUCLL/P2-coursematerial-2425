@@ -21,7 +21,7 @@ class C(B):        #C inherits from B
 
 class D(A):                 #D inherits from A
     def b(self):
-        self.f()
+        self.f() 
 
 
 class E(D):                       #E inherits from D
